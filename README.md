@@ -12,14 +12,14 @@ to the server and see the output of what it sends, and you can type in what to s
 Vice versa, if you have some client software you need to examine, you can set up xtelnet as a server
 and have the client software connect to it so you can see what it outputs and test responses.
 
-Server takes only one client at a time, it will reject new connection attempt if already busy.
+Server mode takes only one client at a time, it will reject new connection attempt if already busy.
 Customizable prefix on sending string, and can be set to use suffix CR and/or LF on sending.
 The GUI has settings for increasing or decreasing font size, and for saving output to file.
 
 In addition, xtelnet can also be used as a pure cleartext tcp "chat" between two parties where one acts 
 as server and the other client, if both set their nickname as prefix the result will look chatt'ish. 
 
-<b>How to run?</b>
+<b>How to run?</b><br>
 Open terminal and type:
 
 python xtelnet.py
