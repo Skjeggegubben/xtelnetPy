@@ -12,6 +12,10 @@ to the server and see the output of what it sends, and you can type in what to s
 Vice versa, if you have some client software you need to examine, you can set up xtelnet as a server
 and have the client software connect to it so you can see what it outputs and test responses.
 
+Let's say, you want to examine what your BROWSER is actually sending, in stead of just trusting what it says it sent when 
+you go in browser console to look at headers and request data. You can set up xtelnet to listen on a port, 8080 e.g., 
+and in browser you try to open http://127.0.0.1:8080/ - then xtelnet shows you exactly what it received. 
+
 Server mode takes only one client at a time, it will reject new connection attempt if already busy.
 Customizable prefix on sending string, and can be set to use suffix CR and/or LF on sending.
 The GUI has settings for increasing or decreasing font size, and for saving output to file.
